@@ -1,0 +1,14 @@
+[[package]]
+name = "gpio"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "rust-gpio-artnet-driver-bridge"
+version = "0.1.0"
+dependencies = [
+ "gpio 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum gpio 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)" = "4fe6783270536547ac473c9d2ae5a7e0e715ea43f29004ced47fbd1c1372d2c7"
